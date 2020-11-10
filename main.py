@@ -12,7 +12,7 @@ def get_text_messages(message):
     elif message.text == "Купить":
         bot.send_message(message.from_user.id, "Чтобы приобрести схему напиши @cXema_seller")
     elif message.text == "Схема":
-        bot.send_message(message.from_user.id, "Предпросмотр Схемы https://drive.google.com/drive/folders/1kawUB8kXfudxu1hOKmfVrYlnEJQwRodh")
+        bot.send_message(message.from_user.id, "Предпросмотр Схемы - https://drive.google.com/drive/folders/1kawUB8kXfudxu1hOKmfVrYlnEJQwRodh")
     elif message.text == "Канал":
         bot.send_message(message.from_user.id, "Вот ссылка на наш канал - @cXema_money")
     else:
