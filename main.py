@@ -7,7 +7,7 @@ keyboard1.row('Купить', 'Схема', 'Канал')
 @bot.message_handler(content_types=['text'])
 def get_text_messages(message):
     if message.text == "/help":
-        bot.send_message(message.from_user.id, "Купить - информация о покупке        Схема - информация о схеме        Канал - ссылка на канал")
+        bot.send_message(message.from_user.id, "Купить - информация о покупке        Схема - информация о схеме            Канал - ссылка на канал")
     elif message.text == "Купить":
         bot.send_message(message.from_user.id, "Чтобы приобрести схему напиши @cXema_seller")
     elif message.text == "Схема":
